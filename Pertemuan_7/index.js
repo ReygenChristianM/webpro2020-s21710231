@@ -74,13 +74,13 @@ console.log(seragamSekolah);
   }
 
 // For/in Loop
-const buku = {
+const buku1 = {
     judul: "Harry Potter and The Philosopher's Stone",
     pengarang: "J. K. Rowling",
     tahun: 1997
  };
- for (x in buku) {
-   console.log(x, ':', buku[x]);
+ for (x in buku1) {
+   console.log(x, ':', buku1[x]);
  }
 
  // For/of Loop
@@ -102,10 +102,10 @@ while (i <= 10) {
 }
 
 //Do While
-let i = 1;
+let j = 1;
 
 do {
-  console.log(i);
-  i++;
-} while (i <= 10);
+  console.log(j);
+  j++;
+} while (j <= 10);
 
