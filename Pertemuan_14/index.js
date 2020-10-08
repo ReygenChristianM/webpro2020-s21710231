@@ -1,5 +1,5 @@
 /*
-    Destrukturisari 
+    Destructuring/Destrukturisari 
 */
 
 //Menyimpan isi array atau ke variabel-variabel lain//
