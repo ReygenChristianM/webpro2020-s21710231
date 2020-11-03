@@ -66,7 +66,7 @@ let[
     {id:idUser1,name:nameUser1},
     {id:idUser2,name:nameUser2},
     {id:idUser3,name:nameUser3},
-]
+]//=users;
 
 //4.Kombinasi dengan Rest Operator
 
