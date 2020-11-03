@@ -22,8 +22,8 @@ yearUntilRetirement({year:1987,firstName:'john'});
 const addNumbers=(a,b,c,d,e,f,g)=>{
     let numbers= [a,b,c,d,e,f,g];
     let sum=0;
-    let result=numbers.map((el)=>sum+=el);
-    return result[result.length-1];
+    let map=numbers.map((el)=>sum+=el);
+    return sum
 }
 console.log(addNumbers(1,2,3,4,5,6,7));
 
