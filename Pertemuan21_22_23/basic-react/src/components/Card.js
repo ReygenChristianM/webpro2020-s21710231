@@ -1,4 +1,5 @@
 import React from 'react';
+//import Counter from './Counter';
 
 const Card=({name,institution,address,phoneNumber})=>{
     return (
@@ -7,6 +8,7 @@ const Card=({name,institution,address,phoneNumber})=>{
     <p>{institution}</p>
     <p>{address}</p>
     <p>{phoneNumber}</p>
+    
         </div>
     );
 };
