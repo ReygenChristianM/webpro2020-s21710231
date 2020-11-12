@@ -13,7 +13,7 @@ const List = props => {
      {props.data.sort(sortByPower).map((person) => (
      <li key={person.name} className="list-item">
        <div className="list-item-image-container">
-        <img src={person.thumbnail} />
+        <img src={person.thumbnail} alt="..."/>
         </div>
         <span className="list-item-name">
           {person.name} ( Power:{' '}
